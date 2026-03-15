@@ -9,7 +9,7 @@ run: clean
 
 # Usage: make test
 test: clean
-	$(CXX) $(CXXFLAGS) test.cpp $(SRC) -o test.out
+	$(CXX) $(CXXFLAGS) Test.cpp $(SRC) -o test.out
 	./test.out
 
 # Usage: make grade
